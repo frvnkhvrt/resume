@@ -414,6 +414,7 @@ img{
 
 .profile__description{
   text-align: center;
+  font-size: var(--small-font-size);
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
@@ -467,6 +468,7 @@ img{
   margin-bottom: var(--mb-3);
 }
 .experience__description{
+  font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-3);
 }
 
@@ -500,11 +502,17 @@ img{
 
 /*========== COURSES ==========*/
 .course__container{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .course__title{
-  font-size: var(--h3-font-size);
+  font-size: var(--smaller-font-size);
+}
+
+.course__institute{
+  font-size: var(--smaller-font-size);
+  color: var(--title-color-light);
 }
 
 /*========== REFERENCES ==========*/
@@ -543,8 +551,7 @@ img{
 
 .interests__icon{
   font-size: 1.5rem;
-  color: var(--text-color-light);
-  margin-right: 0.25rem;
+  color: var(--text-color);
 }
 
 /* Scroll top */
@@ -634,6 +641,10 @@ img{
 
   .home__button-mobile{
     display: none;
+  }
+
+  .skills__name{
+    font-size: var(--smaller-font-size);
   }
 
   .references__container{
