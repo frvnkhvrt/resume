@@ -81,11 +81,11 @@ body.scale-cv{
 
 /*========== Generate PDF button ==========*/
 .generate-pdf{
-  /*display: none;*/
+  display: none;
   position: absolute;
   left: 0;
   top: 2.2rem;
-  display: flex;
+  /*display: flex;*/
   color: var(--text-color);
   font-size: 1.5rem;
   cursor: pointer;
@@ -664,8 +664,8 @@ img{
   }
 
   .generate-pdf{
-    display: inline-block;
-    /*display: none;*/
+    /*display: inline-block;*/
+    display: none;
   }
 
   .section-title,
