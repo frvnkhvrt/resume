@@ -594,7 +594,7 @@ img{
   transition: 1s;
 }
 
-.logo-header{
+.logo__header{
   position: absolute;
   top: 40%;
   left: 50%;
@@ -602,20 +602,20 @@ img{
   color: white;
 }
 
-.logo{
+.logoSplash{
   position: relative;
   display: inline-block;
   bottom: -20px;
   opacity: 0;
 }
 
-.logo.active{
+.logoSplash.active{
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
 }
 
-.logo.fade{
+.logoSplash.fade{
   bottom: 150px;
   opacity: 0;
   transition: ease-in-out 0.5s;
