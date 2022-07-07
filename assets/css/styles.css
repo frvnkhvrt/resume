@@ -361,7 +361,7 @@ img{
 }
 
 .home__icon{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-right: 0.25rem;
 }
 
@@ -442,7 +442,7 @@ img{
 .experience__line{
   display: block;
   width: 2px;
-  height: 110%;
+  height: 100%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -550,7 +550,7 @@ img{
 }
 
 .interests__icon{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--text-color);
 }
 
