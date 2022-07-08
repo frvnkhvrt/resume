@@ -540,7 +540,6 @@ img{
 /*========== INTERESTS ==========*/
 .interests__container{
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: var(--mb-2);
 }
 
 .interests__content{
