@@ -383,6 +383,14 @@ img{
   transition: 0.3s;
 }
 
+.home__link{
+  color: var(--text-color);
+}
+
+.home__link:hover{
+  color: var(--title-color);
+}
+
 /*========== SOCIAL ==========*/
 .social__container{
   grid-template-columns: max-content;
@@ -415,6 +423,18 @@ img{
 .profile__description{
   text-align: center;
   font-size: var(--small-font-size);
+}
+
+.profile__link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.profile__link:hover{
+  color: var(--title-color);
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
